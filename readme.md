@@ -24,7 +24,7 @@ This project is a mockup for a virtual care appointment scheduling and confirmat
 
 3. Build Tailwind CSS
    ```bash
-   npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+   npx tailwindcss -i ./src/input.css -o ./src/output.css
 
 4. Run Project
    ```bash
