@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Care</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="relative bg-blue-900 text-white text-center py-16">
+    <!-- <h1 class="text-4xl font-bold">Virtual Care, Real Results</h1>
+    <p class="mt-2">Schedule your virtual doctor visit with our experienced healthcare professionals. Safe, secure, and convenient.</p>
+    <button class="mt-4 bg-white text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-blue-100">Book Appointment</button> -->
+
+    <!-- Background Image -->
+    <div class="absolute inset-0 bg-center bg-cover opacity-30" style="background-image: url('https://picsum.photos/id/326/800/200');"></div>
+    
+    <!-- Content -->
+    <div class="relative z-10">
+      <h1 class="text-4xl font-bold">Virtual Care, Real Results</h1>
+      <p class="mt-2">Schedule your virtual doctor visit with our experienced healthcare professionals. Safe, secure, and convenient.</p>
+      <button class="mt-4 bg-white text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-blue-100">Book Appointment</button>
+    </div>
+  </header>
+
+  <section class="max-w-4xl mx-auto mt-10 p-6 bg-white shadow-md rounded-lg">
+    <!-- Confirmation Header -->
+    <div class="text-center">
+      <div class="flex items-center justify-center">
+        <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+      </div>
+      <h2 class="text-2xl font-bold mt-4">Appointment Confirmed!</h2>
+      <p class="text-gray-600 mt-2">Your virtual visit has been scheduled successfully.</p>
+    </div>
+
+    <!-- Appointment Details and Doctor Info -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+      <!-- Appointment Details -->
+      <div>
+        <h3 class="text-lg font-semibold">Appointment Details</h3>
+        <ul class="mt-2 space-y-2 text-gray-700">
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M6 2a1 1 0 000 2h8a1 1 0 100-2H6zM3 5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V7a2 2 0 00-2-2H3zm13 2H4v8h12V7z" />
+            </svg>
+            <span>Thursday, March 15, 2025</span>
+          </li>
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M5 8V6a1 1 0 011-1h2a1 1 0 011 1v2h2V6a1 1 0 011-1h2a1 1 0 011 1v2h2a1 1 0 011 1v7a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1h2z" />
+            </svg>
+            <span>10:30 AM (EST)</span>
+          </li>
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M4 5h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V7a2 2 0 012-2z" />
+            </svg>
+            <span>Virtual Visit</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Doctor Information -->
+      <div class="flex items-center">
+        <img src="https://i.pravatar.cc/300?img=5" alt="Doctor" class="w-16 h-16 rounded-full mr-4">
+        <div>
+          <h3 class="text-lg font-bold">Dr. Sarah Johnson</h3>
+          <p class="text-sm text-gray-600">General Practitioner</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Next Steps -->
+    <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+      <h3 class="text-lg font-semibold">Next Steps</h3>
+      <ul class="mt-2 space-y-2 text-gray-700">
+        <li class="flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          Check your email for meeting link and instructions
+        </li>
+        <li class="flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          Test your camera and microphone before the appointment
+        </li>
+        <li class="flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          Join the virtual room 5 minutes before your appointment
+        </li>
+      </ul>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="mt-6 flex justify-center space-x-4">
+      <button class="bg-blue-900 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-800 flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m2 0a2 2 0 002-2V7a2 2 0 00-2-2h-2V3m-6 0v2H7a2 2 0 00-2 2v3a2 2 0 002 2h2m4 0a2 2 0 002-2v3m-6 0a2 2 0 00-2-2v-3" />
+        </svg>
+        Add to Calendar
+      </button>
+      <button class="bg-gray-200 text-gray-800 px-6 py-2 rounded-full font-semibold hover:bg-gray-300 flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v16c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3m-2 0H7a2 2 0 00-2 2v16m14-16H5m14 0V3" />
+        </svg>
+        Email Confirmation
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-10 bg-gray-800 text-white py-11 text-center">
+    <div class="mb-4">
+      <h3 class="text-xl font-bold">Virtual Care</h3>
+      <p class="text-sm">Providing quality healthcare through innovative technology.</p>
+    </div>
+    <div class="text-sm">
+      <div>Contact: 1-800-VIRTUAL | care@virtualcare.com</div>
+      <div class="mt-2">Follow us: 
+        <a href="#" class="ml-2 hover:underline">Facebook</a>
+        <a href="#" class="ml-2 hover:underline">Twitter</a>
+        <a href="#" class="ml-2 hover:underline">Instagram</a>
+        <a href="#" class="ml-2 hover:underline">LinkedIn</a>
+      </div>
+    </div>
+    <p class="mt-4 text-xs">&copy; 2025 Virtual Care. All rights reserved.</p>
+  </footer>
+</body>
+</html>

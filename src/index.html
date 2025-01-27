@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Care</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="relative bg-blue-900 text-white text-center py-16">
+    <!-- <h1 class="text-4xl font-bold">Virtual Care, Real Results</h1>
+    <p class="mt-2">Schedule your virtual doctor visit with our experienced healthcare professionals. Safe, secure, and convenient.</p>
+    <button class="mt-4 bg-white text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-blue-100">Book Appointment</button> -->
+
+    <!-- Background Image -->
+    <div class="absolute inset-0 bg-center bg-cover opacity-30" style="background-image: url('https://picsum.photos/id/326/800/200');"></div>
+    
+    <!-- Content -->
+    <div class="relative z-10">
+      <h1 class="text-4xl font-bold">Virtual Care, Real Results</h1>
+      <p class="mt-2">Schedule your virtual doctor visit with our experienced healthcare professionals. Safe, secure, and convenient.</p>
+      <button class="mt-4 bg-white text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-blue-100">Book Appointment</button>
+    </div>
+  </header>
+
+  <!-- Scheduling Section -->
+  <section class="max-w-4xl mx-auto mt-10 p-6 bg-white shadow-md rounded-lg">
+    <h2 class="text-2xl font-bold text-center mb-6">Schedule Your Visit</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <!-- Specialty -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Select Specialty</label>
+        <select class="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+          <option>General Practice</option>
+          <option>Cardiology</option>
+          <option>Dermatology</option>
+        </select>
+      </div>
+      <!-- Date -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Choose Date</label>
+        <input type="date" class="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+      </div>
+      <!-- Time -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Select Time</label>
+        <select class="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+          <option>09:00 AM</option>
+          <option>10:00 AM</option>
+          <option>11:00 AM</option>
+          <option>3:00 PM</option>
+        </select>
+      </div>
+    </div>
+    <div class="mt-6 p-4 bg-blue-50 rounded-lg flex items-center justify-between">
+      <div class="flex items-center">
+        <img src="https://i.pravatar.cc/300?img=5" alt="Doctor" class="w-12 h-12 rounded-full mr-4">
+        <div>
+          <h3 class="text-lg font-bold">Dr. Sarah Johnson</h3>
+          <p class="text-sm text-gray-600">General Practice &bull; 15 years experience</p>
+          <span class="text-green-600 font-semibold">Available Today</span>
+        </div>
+      </div>
+      <a href="confirm.html">
+        <button class="bg-blue-900 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-800">Confirm Booking</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-10 bg-gray-800 text-white py-11 text-center">
+    <div class="mb-4">
+      <h3 class="text-xl font-bold">Virtual Care</h3>
+      <p class="text-sm">Providing quality healthcare through innovative technology.</p>
+    </div>
+    <div class="text-sm">
+      <div>Contact: 1-800-VIRTUAL | care@virtualcare.com</div>
+      <div class="mt-2">Follow us: 
+        <a href="#" class="ml-2 hover:underline">Facebook</a>
+        <a href="#" class="ml-2 hover:underline">Twitter</a>
+        <a href="#" class="ml-2 hover:underline">Instagram</a>
+        <a href="#" class="ml-2 hover:underline">LinkedIn</a>
+      </div>
+    </div>
+    <p class="mt-4 text-xs">&copy; 2025 Virtual Care. All rights reserved.</p>
+  </footer>
+</body>
+</html>
